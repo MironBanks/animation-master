@@ -88,7 +88,6 @@
           bottom: 0;
           left: 0;
           border-radius: 4px 4px 0 0;
-          overflow: hidden;
           .cover {
             padding: 0;
             background: $lPink;
@@ -98,7 +97,6 @@
             opacity: 0;
           }
           span {
-            opacity: 0;
             display: flex;
             align-items: center;
             height: 64px;
@@ -134,8 +132,8 @@
         }
         .feature-banner {
           position: absolute;
-          bottom: 86px;
-          left: -200px;
+          bottom: 616px;
+          left: 100px;
           background: $lBlue;
           color: $white;
           height: 52px;
@@ -146,7 +144,7 @@
           font-weight: 600;
           &.green {
             background: $green;
-            right: 32px;
+            right: -20px;
             left: auto;
             bottom: 616px;
             @media (max-width: $widescreen) {

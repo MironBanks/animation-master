@@ -184,7 +184,6 @@ body {
   bottom: 0;
   left: 0;
   border-radius: 4px 4px 0 0;
-  overflow: hidden;
 }
 
 .banner .banner-inner .content .content-inner .play-video .cover {
@@ -197,7 +196,6 @@ body {
 }
 
 .banner .banner-inner .content .content-inner .play-video span {
-  opacity: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -247,8 +245,8 @@ body {
 
 .banner .banner-inner .image .image-inner .feature-banner {
   position: absolute;
-  bottom: 86px;
-  left: -200px;
+  bottom: 616px;
+  left: 100px;
   background: #315b96;
   color: #ffffff;
   height: 52px;
@@ -265,7 +263,7 @@ body {
 
 .banner .banner-inner .image .image-inner .feature-banner.green {
   background: #76d8aa;
-  right: 32px;
+  right: -20px;
   left: auto;
   bottom: 616px;
 }
